@@ -1,5 +1,6 @@
 html {
   background-image: url(./imagenes/fondo.jpg);
+  background-size: cover;
 }
 body {
     margin: 0;
@@ -41,11 +42,13 @@ body {
     padding: 15px 10px;
     outline: none;
     width: 400px;
+    
+    
   }
   
   .li-container {
     background-color: white;
-    width: 100%;
+    width: 400px;
     color: darkslategray;
     margin-top: 20px;
   }
@@ -103,5 +106,5 @@ body {
   }
   
   .empty {
-    color: darkslategrey;
+    color: rgb(0, 0, 0);
   }
